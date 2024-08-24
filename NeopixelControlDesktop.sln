@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeopixelControlDesktop", "NeopixelControlDesktop\NeopixelControlDesktop.csproj", "{8DD3B8D3-0E2E-459E-A490-B7896E4462BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD3B8D3-0E2E-459E-A490-B7896E4462BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD3B8D3-0E2E-459E-A490-B7896E4462BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD3B8D3-0E2E-459E-A490-B7896E4462BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD3B8D3-0E2E-459E-A490-B7896E4462BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB1DCCC1-13C5-4B47-9B85-A74B8169BF4B}
+	EndGlobalSection
+EndGlobal

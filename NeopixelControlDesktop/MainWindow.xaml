@@ -1,0 +1,24 @@
+﻿<Window x:Class="NeopixelControlDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NeopixelControlDesktop"
+        mc:Ignorable="d"
+        Title="Neopixel Control" Height="615" Width="287">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.ColumnSpan="2">
+            <Button x:Name="btnOff" Content="Off" HorizontalAlignment="Left" Height="107" Width="262" Margin="4" Click="btnOff_ClickAsync"/>
+            <Button x:Name="btnNorm" Content="Normal Pattern" HorizontalAlignment="Left"  Height="107" Width="262"  Margin="4" Click="btnNorm_Click"/>
+            <Button x:Name="btnJuly" Content="July Pattern" HorizontalAlignment="Left"  Height="107" Width="262"  Margin="4" Click="btnJuly_Click"/>
+            <Button x:Name="btnFall" Content="Fall Pattern" HorizontalAlignment="Left" Height="107" Width="262"  Margin="4" Click="btnFall_Click"/>
+            <Button x:Name="btnXmas" Content="Xmas Pattern"  HorizontalAlignment="Left" Height="107" Width="262"  Margin="4" Click="btnXmas_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
